@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Walidacja</title>
+</head>
+<body>
+<H2> Walidacja </H2>
+<img src="Vmodel2.jpg">
+
+
+
+<header>
+  <h2>Qualification</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="IQ.html">IQ</a></li>
+      <li><a href="OQ.html">OQ</a></li>
+      <li><a href="PQ.html">PQ tu filmik </a></li>
+    </ul>
+    <span id="Data" ></span>
+  </nav>
+
+  <article>
+    <h1>IQ</h1>
+    <p> Installation qualification, or IQ, is a documented verification process that the instrument or piece of equipment has been properly delivered, installed and configured according to standards set by the manufacturer or by an approved installation checklist.
+
+Installation qualification requirements for equipment include checking for proper location, proper energy supply and acceptable environmental conditions. There is also checking of contents against the packing list, verifying software installation, documenting computer-controlled instrumentation, verifying connections with peripherals, and recording calibration and validation dates, among others. </p>
+</article>
+
+      <article>
+    <h1>OQ</h1>
+    <p>
+Operational qualification is the next step in quality assurance and involves testing the equipment and making sure it performs as specified, within operating ranges as listed by the manufacturer. All aspects of the equipment receive individual testing and the tester documents the proper operation of each.
+
+Operational Qualification for equipment is necessary after installation, significant maintenance or modifications to the equipment, or as a feature of scheduled quality assurance testing. Operational qualification aspects that will be tested may include leveling and fluctuation, repeatability, keyboard controls, deviation reports, calibration and certificates, as well as performance reports.
+ </p>
+</article>
+
+<article>
+    <h1>PQ</h1>
+    <p>
+Before your equipment can be truly rated as qualified, you will need to put it through performance qualification. Your process performance qualification protocol will feature verification and documentation that all equipment is working within the accepted range as specified, does it perform as expected under real conditions. All instruments are tested together according to a detailed test plan and must generate reproducible results.
+
+Performance qualification protocols and validation should typically include but not be limited to:
+
+Data summary — A list of data that needs to be analyzed or recorded during the testing procedure
+Manufacturing conditions — Such as component inputs, operating parameters and equipment environment
+Calibration and validation
+Sampling plan — What sampling methods are used (if applicable)
+Analysis methodology
+Variability limits
+Nonconformance contingencies
+
+ </p>
+</article>
+
+    <p id="demo"></p>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<!---->
+<!---->
+<!--  <p>Player 1: Chris</p>-->
+  <script>
+	var para = document.querySelector('p');
+
+	para.addEventListener('click', updateName);
+
+	function updateName() {
+	  var name = prompt('Enter a new name');
+	  para.textContent = 'Player 1: ' + name;
+	  <!-- .innerHTML -->
+	  para.style.color = "red";
+	}
+  </script>
+
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+  <meta name="Description" content="Strona poświęcoana zajęciom www" />
+  <meta name="Keywords" content="WWW;test" />
+  <meta name="Author" content="MJ" />
+  <title>strona testowa form</title>
+  <link rel="stylesheet" href="layout4.css" >
+</head>
+<body>
+
+<div>
+<form action="" method="get" target="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="poland">Poland</option>
+        <option value="germany">Germany</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<footer> Join our team! </footer>
+
+</body>
+</html>

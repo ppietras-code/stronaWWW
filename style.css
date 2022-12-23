@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+
+    background-color: aquamarine;
+    font-size: larger;
+}
+
+section {
+background-color: bisque;
+
+}
+
+nav {
+    text-align: center;
+    width: 35%;
+
+
+}
+img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+footer {
+   background-color: aliceblue;
+    font-size: 300%;
+font-style: italic;
+    text-align: center;
+
+}
